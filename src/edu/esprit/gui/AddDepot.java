@@ -34,6 +34,7 @@ public class AddDepot extends javax.swing.JFrame {
         LabelAjouter = new javax.swing.JLabel();
         LabelAdresse = new javax.swing.JLabel();
         ButtonAjouter = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -47,6 +48,8 @@ public class AddDepot extends javax.swing.JFrame {
                 ButtonAjouterActionPerformed(evt);
             }
         });
+
+        jLabel1.setText("CHangement");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -63,6 +66,10 @@ public class AddDepot extends javax.swing.JFrame {
                             .addComponent(TextAdresse)
                             .addComponent(LabelAjouter, javax.swing.GroupLayout.DEFAULT_SIZE, 126, Short.MAX_VALUE))))
                 .addContainerGap(166, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel1)
+                .addGap(74, 74, 74))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -75,7 +82,9 @@ public class AddDepot extends javax.swing.JFrame {
                     .addComponent(LabelAdresse, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(70, 70, 70)
                 .addComponent(ButtonAjouter)
-                .addContainerGap(94, Short.MAX_VALUE))
+                .addGap(39, 39, 39)
+                .addComponent(jLabel1)
+                .addContainerGap(41, Short.MAX_VALUE))
         );
 
         pack();
@@ -128,5 +137,6 @@ public class AddDepot extends javax.swing.JFrame {
     private javax.swing.JLabel LabelAdresse;
     private javax.swing.JLabel LabelAjouter;
     private javax.swing.JTextField TextAdresse;
+    private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
 }
