@@ -4,7 +4,7 @@
  */
 package edu.esprit.gui;
 
-import edu.esprit.controllers.ListStockController;
+import edu.esprit.controllersModifier.ListStockController;
 
 /**
  *
